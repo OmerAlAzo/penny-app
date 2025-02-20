@@ -87,7 +87,7 @@ nx serve api
 
 2. Start the UI development server:
 ```bash
-nx serve ui
+nx serve ui --port 5200
 ```
 
 3. Access the application:
