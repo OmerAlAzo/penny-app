@@ -91,7 +91,7 @@ nx serve ui
 ```
 
 3. Access the application:
-- Frontend: http://localhost:4200
+- Frontend: http://localhost:5200
 - API: http://localhost:5040
 - Swagger Documentation: http://localhost:5040/docs
 
@@ -150,7 +150,7 @@ Libraries are shareable across libraries and applications. They can be imported 
 
 ## Development server
 
-Run `ng serve my-app` for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
+Run `ng serve my-app` for a dev server. Navigate to http://localhost:5200/. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
@@ -204,7 +204,7 @@ MONGO_URI=mongodb+srv://omar:g99NCUjDgQjWX4Bw@cluster0.98ltc.mongodb.net/best_dB
 PORT=5040
 JWT_SECRET=myscretkey
 JWT_EXPIRE=8h
-CLIENT_URL=http://localhost:4200
+CLIENT_URL=http://localhost:5200
 CLOUDINARY_CLOUD_NAME= dpbojvn3k
 CLOUDINARY_API_KEY=886445886227959
 CLOUDINARY_API_SECRET=lV4LwkWWqEfAIji_-anus74u-QA
