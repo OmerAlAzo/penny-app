@@ -1,0 +1,12 @@
+[NX Daemon Server] - 2025-02-20T16:33:48.116Z - Started listening on: /var/folders/59/_fkg2tdd5k7fp8cbsvn_jc180000gn/T/317271a8de2b519d6b04/d.sock
+[NX Daemon Server] - 2025-02-20T16:33:48.118Z - [WATCHER]: Subscribed to changes within: /Users/omran/Desktop/penny-test (native)
+[NX Daemon Server] - 2025-02-20T16:33:48.123Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-02-20T16:33:48.124Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2025-02-20T16:33:48.125Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-02-20T16:33:48.125Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX Daemon Server] - 2025-02-20T16:33:48.126Z - Done responding to the client Shutdown initiated
+[NX Daemon Server] - 2025-02-20T16:33:48.126Z - Handled FORCE_SHUTDOWN. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2025-02-20T16:33:48.128Z - [WATCHER]: Stopping the watcher for /Users/omran/Desktop/penny-test (sources)
+[NX Daemon Server] - 2025-02-20T16:33:48.128Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2025-02-20T16:33:48.128Z - [WATCHER]: Stopping the watcher for /Users/omran/Desktop/penny-test (outputs)
+[NX Daemon Server] - 2025-02-20T16:33:48.128Z - Server stopped because: "Request to shutdown"
