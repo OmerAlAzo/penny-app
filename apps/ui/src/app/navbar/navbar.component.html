@@ -1,0 +1,28 @@
+<nav class="navbar">
+  <!-- Left Section -->
+  <div class="navbar-left">
+    <a routerLink="/" class="brand">Penny App</a>
+    <a routerLink="/" class="nav-link">Home</a>
+    
+    <!-- Admin Links -->
+    <ng-container *ngIf="user?.role === 'admin'">
+      <a routerLink="/admin/users" class="nav-link" [class.active]="isActive('/admin/users')">Users</a>
+      <a routerLink="/admin/products" class="nav-link" [class.active]="isActive('/admin/products')">Products</a>
+    </ng-container>
+  </div>
+
+  <!-- Right Section -->
+  <div class="navbar-right">
+    <!-- Not Logged In -->
+    <ng-container *ngIf="!user">
+      <a routerLink="/login" class="auth-btn login">Login</a>
+      <a routerLink="/signup" class="auth-btn signup">Sign Up</a>
+    </ng-container>
+
+    <!-- Logged In -->
+    <ng-container *ngIf="user">
+      <span class="user-name">{{ user.name }}</span>
+      <button (click)="logout()" class="auth-btn logout">Logout</button>
+    </ng-container>
+  </div>
+</nav>
