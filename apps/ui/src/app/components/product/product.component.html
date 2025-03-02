@@ -1,0 +1,24 @@
+<div class="product-card" [class.featured]="product.isFeatured">
+  <div class="product-image">
+    <img [src]="product.image" [alt]="product.name">
+    <span class="designer">{{ product.designer }}</span>
+  </div>
+  <div class="product-info">
+    <h3 class="product-name">{{ product.name }}</h3>
+    <p class="product-description">{{ product.description }}</p>
+    <div class="product-details">
+      <div class="colors">
+        <span *ngFor="let color of product.colors" 
+              class="color-dot"
+              [style.background-color]="color"
+              [attr.title]="color">
+        </span>
+      </div>
+      <span class="category">{{ product.category }}</span>
+    </div>
+    <div class="product-footer">
+      <span class="price">{{ product.price | currency }}</span>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+  </div>
+</div>
